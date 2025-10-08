@@ -1,0 +1,26 @@
+diff --git a/node_modules/unstated/lib/unstated.es.js b/node_modules/unstated/lib/unstated.es.js
+index 2f2de09..082dd40 100644
+--- a/node_modules/unstated/lib/unstated.es.js
++++ b/node_modules/unstated/lib/unstated.es.js
+@@ -9,7 +9,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function"
+ 
+ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+ 
+-var StateContext = createReactContext(null);
++var StateContext = React.createContext(null);
+ 
+ var Container = function () {
+   function Container() {
+diff --git a/node_modules/unstated/lib/unstated.js b/node_modules/unstated/lib/unstated.js
+index cc32d81..bdda6f5 100644
+--- a/node_modules/unstated/lib/unstated.js
++++ b/node_modules/unstated/lib/unstated.js
+@@ -15,7 +15,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function"
+ 
+ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+ 
+-var StateContext = createReactContext(null);
++var StateContext = React.createContext(null);
+ 
+ var Container = function () {
+   function Container() {
