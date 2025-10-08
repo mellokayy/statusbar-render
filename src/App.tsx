@@ -16,7 +16,7 @@ const App = () => {
         <View style={styles.container}>
           <Subscribe to={[ExampleContainer]}>
             {(example: ExampleContainer) => {
-              if (example.state.abrir) {
+              if (example.state.open) {
                 return (
                   <>
                     <StatusBar backgroundColor="lightpink"/>
